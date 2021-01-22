@@ -22,7 +22,7 @@
                         <div>{{ item.shortIntro }}</div>
                         <div>销售量: {{ item.latelyFollower }}本</div>
                         <div>
-                          <el-button type="danger" plain style="width:15rem">
+                          <el-button type="danger" plain style="width:18rem;">
                             查看详情
                           </el-button>
                         </div>
@@ -61,7 +61,7 @@ export default {
 <style scoped>
 .search {
   margin: 0 auto;
-  width: 70rem;
+  width: 90rem;
   border: 1px solid #ddd;
   font-size: 14px;
   color: #303133;
@@ -86,14 +86,14 @@ export default {
 /* 图书推荐 */
 .bookList img {
   width: 100%;
-  height: 16rem;
+  height: 19rem;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5), 0 0 6px rgba(0, 0, 0, 0.3);
 }
 .bookList .bookIntr {
   margin: 0 auto;
   width: 90%;
-  height: 16rem;
+  height: 19rem;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
   color: #aaa;
@@ -128,10 +128,7 @@ export default {
 }
 .bookList .bookIntr > div > :nth-child(5) {
   margin: 0.7rem 1rem;
-}
-.bookList .bookIntr > div > :nth-child(5) > span {
-  color: #0aa1ed;
-  font-size: 21px;
-  margin: 1.5rem;
+  display: flex;
+  justify-content: center;
 }
 </style>

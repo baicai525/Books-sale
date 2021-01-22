@@ -23,4 +23,12 @@
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>
+  <script>
+    var width=document.documentElement.clientWidth;
+    var height=document.documentElement.clientHeight;
+    console.log(width)
+    console.log(height)
+    var sacle=width/1920>height/1080?height/1080:width/1920;
+    document.getElementsByTagName('body')[0].style.zoom=sacle;
+</script>
 </html>

@@ -623,7 +623,7 @@ export default {
 .home .transition-box {
   position: relative;
   top: -5px;
-  width: 25.55rem;
+  width: 32rem;
   height: 300px;
   overflow-y: auto;
   border-radius: 0 0 8px 8px;
@@ -715,7 +715,7 @@ export default {
   user-select: none;
 }
 .home {
-  min-width: 90rem;
+  min-width: 100rem;
   margin: 0 auto;
 }
 .header {
@@ -743,7 +743,7 @@ export default {
   opacity: 0.9;
 }
 .header > div:nth-child(2) {
-  width: 30rem;
+  width: 35rem;
 }
 .home .el-breadcrumb {
   display: flex;
@@ -773,18 +773,18 @@ export default {
   justify-content: space-between;
 }
 .home .order_list {
-  height: 6rem;
+  height: 8rem;
   border: 1px solid #ddd;
   border-radius: 6px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
   text-align: center;
-  margin: 5px;
+  margin: 2px;
 }
 .home .header > div:last-child .order_list img[data-v-fae5bece] {
-  width: 4rem;
-  height: 5.5rem;
+  width: 4.5rem;
+  height: 7rem;
   border-radius: 6px;
 }
 .home .order_subTitle {
@@ -836,14 +836,14 @@ export default {
 
 .bookList .bookimg {
   width: 100%;
-  height: 16rem;
+  height: 20rem;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5), 0 0 6px rgba(0, 0, 0, 0.3);
 }
 .bookList .bookIntr {
   margin: 0 auto;
   width: 90%;
-  height: 16rem;
+  height: 20rem;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
   color: #aaa;

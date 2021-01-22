@@ -36,10 +36,7 @@
                   <div class="gwc">
                     <p>
                       价格:
-                      <span>
-                        ¥
-                        {{ parseInt(bookInfo.retentionRatio).toFixed(2) }}</span
-                      >
+                      <span>¥{{ parseInt(bookInfo.retentionRatio).toFixed(2) }}</span>
                     </p>
 
                     <el-button
@@ -121,7 +118,7 @@ export default {
 <style scoped>
 .about {
   margin: 0 auto;
-  width: 70rem;
+  width: 90rem;
   border: 1px solid #ddd;
   font-size: 14px;
   color: #303133;
@@ -165,7 +162,7 @@ export default {
   font-weight: bold;
 }
 .text .gwc {
-  width: 23rem;
+  width: 26rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
